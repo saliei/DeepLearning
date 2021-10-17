@@ -10,6 +10,7 @@
 ---
 * Resources:
     - [Tensorflow NMT](https://github.com/tensorflow/nmt)
+    - [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 
 
