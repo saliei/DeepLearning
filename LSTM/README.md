@@ -33,6 +33,14 @@
         it by the output of the sigmoid gate, so that we only output the parts we decide to.
         <img src="assets/LSTM3-focus-o.png" style="display:block;margin-left:auto; margin-right:auto; width:75%">
 
+    - Variants on LSTMs. Adding "peephole connections", This means letting gate layers look at the cell state.
+        Another variant is to use coupled forget and input gates. Instead of separately desciding what to forget 
+        and what we should add new information to, we make those decisions together. We only forget when we're 
+        going to input something in its place. We only input new values to the state when we forget something older.
+
+    - Another variant of LSTM is the Gated Recurrent Unit (GRU). It combines the forget and input gates into a single 
+        "update gate." It also merges the cell state and hidden state, along with other changes.
+        <img src="assets/LSTM3-var-GRU.png" style="display:block;margin-left:auto; margin-right:auto; width:75%">
 
 ---
 * References:
