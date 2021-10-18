@@ -6,7 +6,6 @@
         unable to learn relevant parameters.
     - LSTM netwoeks (LSTMs) are a special kind of RNN, capable of learning long-term dependence.
     - The repeating module in an LSTM contains four interacting layers (vs 1 in standard RNN).
-
         <img src="assets/LSTM3-chain.png" style="display:block;margin-left:auto; margin-right:auto; width:50%">
 
 ---
