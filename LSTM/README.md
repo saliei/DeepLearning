@@ -5,7 +5,8 @@
     - RNNs shortcomings are persisting information over a long history. They are fundamentally 
         unable to learn relevant parameters.
     - LSTM netwoeks (LSTMs) are a special kind of RNN, capable of learning long-term dependence.
-    - 
+    - The repeating module in an LSTM contains four interacting layers (vs 1 in standard RNN).
+        ![LSTM Chain](assets/LSTM3-chain.png | width=100)
 
 ---
 * Resources:
