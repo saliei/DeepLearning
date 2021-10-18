@@ -20,8 +20,12 @@
         forget earlier. The second part is the new candidate values, scaled by how much we decided to update each 
         state values.
         <img src="assets/LSTM3-focus-C.png" style="display:block;margin-left:auto; margin-right:auto; width:75%">
+    - Deciding the output. First we run a sigmoid layer which decides what parts if the cell state we're going to 
+        output. Then we put the cell state through tanh (to push the values to be between -1, and 1) and multiply 
+        it by the output of the sigmoid gate, so that we only output the parts we decide to.
+        <img src="assets/LSTM3-focus-o.png" style="display:block;margin-left:auto; margin-right:auto; width:75%">
 
 
 ---
-* Referenced:
+* References:
     - [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
