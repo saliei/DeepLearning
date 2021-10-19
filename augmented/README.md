@@ -11,7 +11,8 @@
     - Neural Training Machines. Combine a RNN with an external memory bank, which is an array of vectors.
         <img src="assets/rnn_memory.svg" style="display:block;margin-left:auto; margin-right:auto; width:75%">
         
-        -  Every step NTMs, read and write everywhere, just to differnet extents.
+        -  NTMs, at each step, read and write everywhere, just to differnet extents.
+
 
 
 ---
