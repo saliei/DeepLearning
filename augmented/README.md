@@ -26,6 +26,8 @@
         everywhere, just to different extents.
         <img src="assets/rnn_attentional_01.svg" style="display:block;margin-left:auto; margin-right:auto; width:75%">
 
+        - The attention distribution is usually generated with content-based attention. 
+
 
 
 ---
