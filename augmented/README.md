@@ -28,6 +28,26 @@
 
         - The attention distribution is usually generated with content-based attention. 
 
+        - For translation problem, attention allows the input processing RNN to pass along information about each word it sees, and 
+            then for the RNN generating the output to focus on words as they become relevant.
+
+        - This attention between RNNs, in voice recognition, allows one RNN to process the audio and then have another RNN skim over it, 
+            focusing on relevant parts as it generates a transcript.
+
+        - In parsing text, it allows the model to glance at words as it generates the parse tree, and for conversational modelling, where 
+            it lets the model focus on previous parts of the conversation as it generates its response.
+
+        - Attention can be used as an interface between a convolutional neural network and an RNN. This allows the RNN to look at different 
+            position of an image every step, e.g. in image captioning, a conv net processes the image, extracting high-level features. Then an 
+            RNN runs, generating a description of the image. As it generates each word in the description, the RNN focuses on the conv net's 
+            interpretation of the relevant parts of the image.
+
+    - Adaptive Computation Time. This is a way for RNNs to do different amounts of computation each step, as opposed to standard RNNs which do 
+        the same amount of computation for each step. This allows the RNN to do multiple steps of computation for each time step.
+        <img src="assets/rnn_adaptive_01.svg" style="display:block;margin-left:auto; margin-right:auto; width:75%">
+
+        - The number of steps should be differentiable. Instead of deciding to run for a descrete number of steps, we have an attention distribution 
+            over the number of steps to run. The output is a weighted combination of the outputs of each step.
 
 
 ---
