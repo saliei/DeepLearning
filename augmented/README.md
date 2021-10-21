@@ -48,7 +48,13 @@
 
         - The number of steps should be differentiable. Instead of deciding to run for a descrete number of steps, we have an attention distribution 
             over the number of steps to run. The output is a weighted combination of the outputs of each step.
+        
+        - Further reading in reference #1.
 
+    - Neural Programmer. It learns to create programs in order to solve a task, and generate a program without needing examples of correct programs. 
+        It discovers how to produce programs as a mean to the end of accomplishing some task.
+        
+        - Further readin in reference #1.
 
 ---
 * References:
