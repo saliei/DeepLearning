@@ -30,6 +30,8 @@
             these are decoder_inputs shifted to the left by one time step 
             with an end-of-sentence tag appended on the right.
 
+    - Forthub
+
 ---
 * Resources:
     1. [Tensorflow NMT](https://github.com/tensorflow/nmt)
