@@ -1,5 +1,5 @@
-# DeepLearning
-Example applications and models of deep learning along with notes.
+# Deep Learning Concepts
+Example models of deep learning along with notes.
 
 - [Augmented](Augmented): Notes regarding *augmented* RNNs and *attention* mechanisms.
 - [LSTM](LSTM): Notes regarding *Long Short-Term Memory* networks.
